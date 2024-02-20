@@ -1,0 +1,60 @@
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+<title>Formularz</title>
+<meta name="description" content=" ">
+<meta name="keywords" content=" ">
+<meta name="author" content="Igor Enerlich">
+</head>
+<body>
+<FORM action="mailto:enerlichigor@gmail.com?subject=Formularz" method="post">
+<input name="Imie" />Podaj swoje imię<br />
+<input name="Nazwisko" />Podaj swoje Nazwisko<br />
+
+<p>Podaj swoją płeć:</p>
+<input type="radio" name="Płeć" value="Kobieta" />Kobieta
+<input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+
+<p>Ile masz lat?</p>
+<p> <input type="radio" name="Wiek" value="15-30" />15-30 </p>
+<p> <input type="radio" name="Wiek" value="30-50" />30-50 </p>
+<p> <input type="radio" name="Wiek" value="50+" />50+ </p>
+
+<p> Jakie typy gier lubisz? </p>
+<input type="checkbox" name=„gra" value=„Gry MMO" />MMO
+<input type="checkbox" name=„gra" value=„Gry RPG" />RPG
+<input type="checkbox" name=„gra" value=„Gry FPS" />FPS
+<input type="checkbox" name=„gra" value=„Gry AAA" />AAA
+<input type="checkbox" name=„gra" value=„Gry Inna" />Inna (podaj jaka): <input name="Inna" <br/>
+
+<p>Jakiej przeglądarki internetowej używasz?</p>
+<select name="Przeglądarka">
+<option selected="selected">Internet Explorer</option>
+<option>Netscape</option>
+<option>Opera</option>
+<option>Mozilla</option>
+<option>Inna</option>
+</select>
+
+<p>Z jakiego systemuy operacyjnego korzystasz?</p>
+<select name="Systemy">
+<option selected="selected">Windows</option>
+<option>Dos</option>
+<option>Linux</option>
+<option>MacOS</option>
+</select>
+
+<p>Podaj swój komentarz:</p>
+<textarea name="Komentarz" cols="50" rows="10">
+Proszę, wpisz tutaj jakiś komentarz...
+</textarea>
+
+<input type="submit" value="Wyślij formularz" />
+<input type="reset" value="Wyczyść dane" />
+
+
+
+ 
+</FORM>
+</body>
+</html>
