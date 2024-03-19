@@ -1,0 +1,70 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+#container
+{
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+border:1px solid black;
+}
+#header
+{
+background-color: #357;
+margin-top: 10px;
+height: 150px;
+}
+#logo
+{
+float: left;
+padding: 10px;
+width: 150px;
+text-align: center;
+}
+#tytul
+{
+float: left;
+padding: 10px;
+width: 560px;
+font-size: 40px;
+color: white;
+text-align: center;
+line-height: 3;
+}
+#nav
+{
+border:1px solid black;
+background:#87CEEB ;
+}
+#left
+{
+border:1px solid black;
+height: 200px;
+width: 150px;
+float: left;
+background: ;
+}
+#main
+{
+border:1px solid black;
+height: 200px;
+width: 444px;
+float: left;
+background: ;
+}
+#right
+{
+border:1px solid black;
+height: 200px;
+width: 150px;
+float: right;
+background: ;
+}
+#footer
+{
+border:1px solid black;
+clear: both;
+background: ;
+}
