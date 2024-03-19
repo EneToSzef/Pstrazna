@@ -1,0 +1,40 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+#container
+{
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+border:1px solid black;
+}
+#header
+{
+height: 150px;
+background: #9CF;
+}
+#left
+{
+width: 200px;
+float: left;
+background: #ABC;
+}
+#main
+{
+width: 250px;
+float: left;
+background: #2CF;
+}
+#right
+{
+width: 300px;
+float: left;
+background: #9FF;
+}
+#footer
+{
+clear: both;
+background: #999;
+}
